@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="card">
+        <!-- Sección de Resultado (morada) -->
+        <section class="result">
+          <h1 class="result__title">Your Result</h1>
+
+          <div class="result__circle">
+            <p class="result__score">76</p>
+            <p class="result__total">of 100</p>
+          </div>
+
+          <h2 class="result__status">Great</h2>
+          <p class="result__text">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+
+        <!-- Sección de Resumen (blanca) -->
+        <section class="summary">
+          <h2 class="summary__title">Summary</h2>
+
+          <section class="summary__items">
+            <div class="summary__item summary__item--reaction">
+              <div class="summary__label">
+                <img src="./assets/images/icon-reaction.svg" alt="" />
+                <span>Reaction</span>
+              </div>
+              <p class="summary__score">
+                <strong>80</strong> <span>/ 100</span>
+              </p>
+            </div>
+
+            <div class="summary__item summary__item--memory">
+              <div class="summary__label">
+                <img src="./assets/images/icon-memory.svg" alt="" />
+                <span>Memory</span>
+              </div>
+              <p class="summary__score">
+                <strong>92</strong> <span>/ 100</span>
+              </p>
+            </div>
+
+            <div class="summary__item summary__item--verbal">
+              <div class="summary__label">
+                <img src="./assets/images/icon-verbal.svg" alt="" />
+                <span>Verbal</span>
+              </div>
+              <p class="summary__score">
+                <strong>61</strong> <span>/ 100</span>
+              </p>
+            </div>
+
+            <div class="summary__item summary__item--visual">
+              <div class="summary__label">
+                <img src="./assets/images/icon-visual.svg" alt="" />
+                <span>Visual</span>
+              </div>
+              <p class="summary__score">
+                <strong>73</strong> <span>/ 100</span>
+              </p>
+            </div>
+          </section>
+          <a
+            href="https://www.tiktok.com/@juliancodelab10"
+            target="_blank"
+            rel="juliancodelab10"
+          >
+            <button class="summary__button">Continue</button>
+          </a>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
